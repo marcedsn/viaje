@@ -1,0 +1,58 @@
+/* Inverness. Textos y lugares de esta ciudad. */
+export default {
+  id: "inverness",
+  nombre: "Inverness",
+  region: "Escocia",
+  cuando: "Días 12–13",
+  rol: "Escala",
+  imagen: "img/inverness.jpg",
+  encuadre: "center 36%",
+  punto: { lat: 57.4778, lng: -4.2247, dx: 16, dy: -22 },
+  nota: "Llegada el día 12 y salida el día 13. Culloden y Clava son la salida corta, a unos quince minutos en auto. El centro se camina igual sin auto.",
+  texto: [
+    "Inverness es una escala, no una base. El día 12 se llega en tren y el 13 se sale hacia las Highlands.",
+    "La ciudad se ve en un paseo por el río. Lo que justifica la parada, si hay auto, es Culloden y las cairns de Clava, las dos en la misma tarde.",
+  ],
+  lugares: [
+    {
+      nombre: "Castillo de Inverness",
+      local: "Inverness Castle",
+      tipo: "Castillo",
+      lat: 57.4765,
+      lng: -4.2255,
+      texto: "La colina sobre el río Ness. La vista del agua y del puente es el paseo, aunque el interior esté en obras o con una muestra distinta a la de siempre.",
+    },
+    {
+      nombre: "Islas del Ness",
+      local: "Ness Islands, Inverness",
+      tipo: "Paseo",
+      lat: 57.4702,
+      lng: -4.229,
+      texto: "Unas islas chicas unidas por puentes, río abajo del castillo. Es la caminata linda de la ciudad, llana y corta.",
+    },
+    {
+      nombre: "Victorian Market",
+      local: "Victorian Market, Inverness",
+      tipo: "Mercado",
+      lat: 57.4787,
+      lng: -4.2256,
+      texto: "El mercado cubierto, en Academy Street, a unas cuadras de la estación. Sirve para entrar si llueve y para orientarse en el centro.",
+    },
+    {
+      nombre: "Culloden",
+      local: "Culloden Battlefield",
+      tipo: "Sitio",
+      lat: 57.4772,
+      lng: -4.1024,
+      texto: "El campo de la batalla de 1746, a quince minutos en auto. El centro de visitantes explica el lugar. El páramo se camina después, con viento.",
+    },
+    {
+      nombre: "Clava Cairns",
+      local: "Clava Cairns",
+      tipo: "Sitio",
+      lat: 57.4735,
+      lng: -4.0738,
+      texto: "Tumbas de la Edad del Bronce, a diez minutos de Culloden. Es la segunda parada de la misma salida, y está casi vacía al lado del campo de batalla.",
+    },
+  ],
+};

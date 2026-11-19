@@ -1,0 +1,58 @@
+/* Chester. Textos y lugares de esta ciudad. */
+export default {
+  id: "chester",
+  nombre: "Chester",
+  region: "Inglaterra",
+  cuando: "Día 16",
+  rol: "Desde Liverpool",
+  imagen: "img/chester.jpg",
+  encuadre: "center 30%",
+  punto: { lat: 53.1905, lng: -2.891, dx: -72, dy: 14 },
+  nota: "Unos cuarenta y cinco minutos en tren desde Liverpool Lime Street. Se vuelve a dormir a Liverpool.",
+  texto: [
+    "Chester entra entera en un día, y sobra. La muralla, las Rows y la catedral están a minutos unas de otras.",
+    "El tren deja en el centro. No hace falta combinar con nada más.",
+  ],
+  lugares: [
+    {
+      nombre: "Reloj de Eastgate",
+      local: "Eastgate Clock, Chester",
+      tipo: "Muralla",
+      lat: 53.1906,
+      lng: -2.8902,
+      texto: "El reloj sobre la puerta, y el lugar más simple para subir a la muralla. El circuito completo son unos tres kilómetros. Con un tramo alcanza.",
+    },
+    {
+      nombre: "The Rows",
+      local: "The Rows, Chester",
+      tipo: "Calle",
+      lat: 53.1898,
+      lng: -2.8915,
+      texto: "Las galerías cubiertas del primer piso, encima de las tiendas. Se caminan por Bridge Street y Watergate Street, en los dos niveles.",
+    },
+    {
+      nombre: "Catedral de Chester",
+      local: "Chester Cathedral",
+      tipo: "Catedral",
+      lat: 53.1918,
+      lng: -2.8903,
+      texto: "A un minuto de Eastgate. El claustro es la parte más linda.",
+    },
+    {
+      nombre: "Anfiteatro romano",
+      local: "Chester Roman Amphitheatre",
+      tipo: "Ruinas",
+      lat: 53.1891,
+      lng: -2.8873,
+      texto: "El anfiteatro, al pie de la muralla, junto a Newgate. Se ve desde arriba si se viene caminando por la muralla.",
+    },
+    {
+      nombre: "The Groves",
+      local: "The Groves, Chester",
+      tipo: "Río",
+      lat: 53.1868,
+      lng: -2.8888,
+      texto: "El paseo del río Dee. Se baja desde la muralla sur. Es el cierre del día, antes del tren de vuelta.",
+    },
+  ],
+};

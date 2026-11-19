@@ -1,6 +1,8 @@
+import { VIAJE } from "./viaje.js";
+
 (function () {
   const root = document.querySelector("#contenido");
-  if (!root || typeof VIAJE === "undefined") return;
+  if (!root) return;
 
   const esc = (s) =>
     String(s)
@@ -24,7 +26,11 @@
   const prev = ciudades[index - 1];
   const next = ciudades[index + 1];
 
-  const colorDe = (p) => (p.dia && city.colores ? city.colores[p.dia - 1] || "" : "");
+  const colorDe = (p) => {
+    if (p.dia && city.colores) return city.colores[p.dia - 1] || "";
+    if (p.grupo && city.coloresGrupo) return city.coloresGrupo[p.grupo] || "";
+    return "";
+  };
   const marca = (i) => {
     const dia = city.lugares[i].dia;
     if (!dia) return i + 1;

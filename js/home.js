@@ -1,6 +1,8 @@
+import { VIAJE } from "./viaje.js";
+
 (function () {
   const root = document.querySelector("#contenido");
-  if (!root || typeof VIAJE === "undefined") return;
+  if (!root) return;
 
   const esc = (s) =>
     String(s)
